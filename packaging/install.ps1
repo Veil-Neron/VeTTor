@@ -40,7 +40,7 @@ $props = @{
     DisplayName     = $title
     DisplayIcon     = "$exe,0"
     DisplayVersion  = $version
-    Publisher       = $env:USERNAME
+    Publisher       = "Veil Neron"
     InstallLocation = $dst
     UninstallString = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File `"$dst\uninstall.ps1`""
 }
