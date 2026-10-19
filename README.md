@@ -138,7 +138,7 @@ VeTTor не пугает зря: отсутствие подписи или уп
 **По желанию:** [WinRAR](https://www.win-rar.com/) — для распаковки RAR-архивов.
 
 ```powershell
-git clone https://github.com/<аккаунт>/VeTTor.git
+git clone https://github.com/Veil-Neron/VeTTor.git
 cd VeTTor
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
